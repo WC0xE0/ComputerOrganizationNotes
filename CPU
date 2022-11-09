@@ -1,0 +1,44 @@
+
+4.2 CPU Basics
+CPU: fetch-decode-execute program instructions
+CPU two main parts: datapath & control unit
+- datapath: ALU + registers that are interconnected by a data bus
+    - ALU is controlled by the control unit 
+    - Registers are addressed and manipulated by the control unit itself (cf. RAM is accessed via memory address)
+- control unit: 
+    - various CPU components perform sequenced operations according to signals provided by the control unit
+
+4.3 The Bus:
+- CPU shares data with other system components via a data bus
+- A bus is a set of wires that simultaneously convey a single bit along each line
+- Two types of buses: point-to-point; multipoint
+- Buses consist of data lines, control lines, and address lines.
+    - the data lines convey bits from one device to another, 
+    - control lines determine the direction of data flow, and when each device can access the bus.
+    - address lines determine the location of the source or destination of the data.
+
+4.4 Clocks
+- Generally, when we mention the clock, we are referring to the system clock, or the master clock that regulates the CPU and other components. 
+    - However, some buses have bus clocks, which are usually slower than CPU clocks, causing bottleneck probs.
+
+- clock cycle time (clock period) is the reciprocal of the clock frequency
+    - An 800 MHz clock has a cycle time of 1.25 ns.
+    - The clock frequency, measured in megahertz or gigahertz, determines the speed with which all operations are carried out.
+    - A fixed number of clock cycles are required to carry out each data movement or computational operation.
+
+- Clock speed should not be confused with CPU performance. The CPU time required to run a program is given by the general performance equation:
+    - CPU Time = seconds/program = instructions/program X avg.cycles/instruction X seconds/cycle
+    
+- Clock speed = the speed a CPU can carry out one fetch-decode-execute cycle (Unit: Hertz)
+
+- overclocking: speed up the tempo of CPU (too much can overheat)
+- underclocking: useful when user has stepped away or not using the computer much
+- many modern CPUs can speed up or slow down their clock speeds based on needs —> “dynamic frequency scaling”
+
+
+
+
+
+
+
+
