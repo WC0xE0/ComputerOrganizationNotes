@@ -1,0 +1,34 @@
+5.2 Instruction Formats
+
+Instruction sets are differentiated by the following:
+•Number of bits per instruction.
+•Stack-based or register-based. <operand storage>
+•Number of explicit operands per instruction.
+    - eg. for MARIE the max number of operands is 1
+•Operand location.
+    - eg. for MARIE the operand is located in RAM
+•Types of operations.
+•Type and size of operands.
+
+ISA are measured by:
+•Main memory space occupied by a program.
+•Instruction complexity.
+•Instruction length (in bits).
+•Total number of instructions in the instruction set.
+
+In designing an instruction set, consideration is given to:
+•Instruction length.
+	–Whether short, long, or variable.
+•Number of operands.
+•Number of addressable registers.
+•Memory organization.
+	–Whether byte- or word- addressable.
+•Addressing modes.
+	–Choose any or all: immediate, direct, indirect or indexed.
+
+
+Byte ordering, or endianness, is another major architectural consideration.
+•If we have a two-byte integer
+- In little endian machines, the least significant byte is followed by the most significant byte. [L][MSB]
+- Big endian machines store the most significant byte first (at the lower address). [MSB][L]
+
