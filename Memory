@@ -6,3 +6,25 @@ Main memory (RAM)
 Secondary memory (hard disk drive: magnetic or solid state)
 Tertiary memory
 Off-line bulk memory
+
+——— 6.5 Virtual Memory
+
+•Cache memory enhances performance by providing faster memory access speed. <Time>
+•Virtual memory enhances performance by providing greater memory capacity, without the expense of adding main memory. <Space>
+
+
+•A portion of a hard disk drive serves as an extension of main memory (RAM).
+•If a system uses paging, virtual memory partitions main memory into individually managed page frames, that are written (or paged) to disk when they are not immediately needed.
+
+
+•A physical address is the actual memory address of physical memory.
+•Programs create virtual addresses that are mapped to physical addresses by the *memory manager. (*OS has memory manager, file manager, etc. )
+•Page faults occur when a logical address requires that a page be brought in from disk.
+•Memory fragmentation occurs when the paging process results in the creation of small, unusable clusters of memory addresses.
+
+
+•Main memory and virtual memory are divided into equal sized pages.
+•The entire address space required by a process need not be in memory at once. Some parts can be on disk, while others are in main memory.
+•Further, the pages allocated to a process do not need to be stored contiguously-- either on disk or in memory.
+•In this way, only the needed pages are in memory at any time, the unnecessary pages are in slower disk storage.
+
