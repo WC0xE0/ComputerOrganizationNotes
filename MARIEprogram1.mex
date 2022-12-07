@@ -1,0 +1,17 @@
+// Write a program which will get (as input) two values from user, add 
+// these two value together, and output/print result.
+
+
+Input 
+Store X
+Input 
+Store Y
+Load X
+Add Y
+Store Z
+Load Z
+Output 
+Halt
+X, HEX 0000
+Y, HEX 0000
+Z, HEX 0000
