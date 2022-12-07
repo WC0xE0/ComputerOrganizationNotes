@@ -1,0 +1,18 @@
+// Write  a program in MARIE which keeps taking values from a user until 
+// it falls into a valid range. For example, the value needs to be 
+// less than 10, the program ends when the user enters a value < 10.
+
+
+Loop, Input	 // read from input 
+Store X 		// store input in X 
+Subt Y  		// subtract Y from AC
+Store Z  		// store AC in Z
+Load Z  		// load Z into AC
+Skipcond 000	// skip next instruction if AC[11-0] < 0
+Jump Loop     // jump back to Loop
+Add Y		    // add 10 back to Z for outputing user's input
+Output
+Halt        // end program 
+X, HEX 0000
+Y, DEC  10
+Z, HEX 0000
