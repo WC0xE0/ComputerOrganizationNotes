@@ -1,0 +1,16 @@
+// This program takes two values from user,
+// add them together, and output their sum
+
+Input
+Store X
+Input 
+Store Y
+Load X
+Add Y 
+Store Z
+Load Z
+Output
+Halt
+X, HEX 0000
+Y, HEX 0000
+Z, HEX 0000
