@@ -14,3 +14,14 @@ Halt
 X, HEX 0000
 Y, HEX 0000
 Z, HEX 0000
+
+
+// A simpler way to do it:
+
+Input 
+Store X
+Input
+Add X
+Output
+Halt
+X, HEX 0000
