@@ -7,7 +7,7 @@
 
 
 •How does the computer access a memory location corresponds to a particular address?
-- We observe that 4M can be expressed as 2 2 x 2 20 = 2 22 words.
+- We observe that 4M can be expressed as 2^2 x 2^20 = 2^22 words.
 - Memory locations for this memory are numbered 0 through 2 22 - 1.
 - Thus, the memory bus of this system requires at least 22 address lines:
     - The address lines “count” from 0 to 222 - 1 in binary. 
@@ -21,11 +21,13 @@ eg. 32K memory in 4 banks
 32K = 2^5 * 2^10 = 2^15 --> 15 bits needed to represent the memory address
 32k = 8k per bank * 4 banks
 8k = 2^3*2^10 = 2^13 --> 13 bits for offset inside each module
-15-13 = 2 --> 2 bits to select 1 of the 4 banks
+15 - 13 = 2 --> 2 bits to select 1 of the 4 banks
 ------------------------------------------
 2 bits	| 13 bits
 module number	| offset in module
 select the chip/bank | offset on chip/bank
 -------------------------------------------
-*this is high-order memory interleaving
+*this example is high-order memory interleaving
 *which means the module number is in high order bits
+
+*there's also low-order memory interleaving.
