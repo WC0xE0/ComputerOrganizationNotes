@@ -26,7 +26,6 @@ In designing an instruction set, consideration is given to:
 •Addressing modes.
 	–Choose any or all: immediate, direct, indirect or indexed.
 
-
 Byte ordering, or endianness, is another major architectural consideration.
 •If we have a two-byte integer
 - In little endian machines, the least significant byte is followed by the most significant byte. [L][MSB]
