@@ -5,7 +5,6 @@
 - Memory is constructed of RAM chips, often referred to in terms of length x width.
 - If the memory word size of the machine is 16 bits, then a 4M x 16 RAM chip gives us 4 megabytes of 16-bit memory locations.
 
-
 •How does the computer access a memory location corresponds to a particular address?
 - We observe that 4M can be expressed as 2^2 x 2^20 = 2^22 words.
 - Memory locations for this memory are numbered 0 through 2 22 - 1.
@@ -15,7 +14,6 @@
 
 •Physical memory usually consists of more than one RAM chip.
 •Access is more efficient when memory is organized into banks of chips with the addresses interleaved across the chips
-
 
 eg. 32K memory in 4 banks
 32K = 2^5 * 2^10 = 2^15 --> 15 bits needed to represent the memory address
