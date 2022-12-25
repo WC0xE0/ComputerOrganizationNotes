@@ -1,4 +1,3 @@
-
 4.2 CPU Basics
 CPU: fetch-decode-execute program instructions
 CPU two main parts: datapath & control unit
@@ -8,7 +7,7 @@ CPU two main parts: datapath & control unit
 - control unit: 
     - various CPU components perform sequenced operations according to signals provided by the control unit
 
-4.3 The Bus:
+4.3 The Bus
 - CPU shares data with other system components via a data bus
 - A bus is a set of wires that simultaneously convey a single bit along each line
 - Two types of buses: point-to-point; multipoint
