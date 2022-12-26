@@ -1,4 +1,5 @@
 4.2 CPU Basics
+
 CPU: fetch-decode-execute program instructions
 CPU two main parts: datapath & control unit
 - datapath: ALU + registers that are interconnected by a data bus
