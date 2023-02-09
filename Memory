@@ -1,5 +1,5 @@
 
-——— Memory Hierachy (from fast to slow): 
+——— Memory Hierachy (from fast/small/expensive to slow/big/inexpensive): 
 
 Registers
 Cache
