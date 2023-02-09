@@ -60,7 +60,8 @@ how it works: a combination of the above two methods;
 •Further, the pages allocated to a process do not need to be stored contiguously-- either on disk or in memory.
 •In this way, only the needed pages are in memory at any time, the unnecessary pages are in slower disk storage.
 
-define terms:
+
+Define Terms:
 Page frames — The equal-size chunks or blocks into which main memory (physical memory) is divided. 
 Pages — The chunks or blocks into which virtual memory (the logical address space) is divided, each equal in size to a page frame. 
 Paging — The process of copying a virtual page from disk to a page frame in main memory. 
