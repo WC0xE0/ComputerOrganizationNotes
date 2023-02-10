@@ -1,5 +1,6 @@
 4.6 Memory Organization and Addressing
 
+•Concepts:
 - Computer memory consists of a linear array of addressable storage cells that are similar to registers.
 - Memory can be byte-addressable, or word-addressable, where a word typically consists of two (16 bits) or more bytes.
 - Memory is constructed of RAM chips, often referred to in terms of length x width.
